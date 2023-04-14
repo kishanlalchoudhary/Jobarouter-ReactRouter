@@ -7,16 +7,21 @@ export default function RootLayout() {
       <header>
         <nav>
           <h1>Jobarouter</h1>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="about">About</NavLink>
-          <NavLink to="help">Help</NavLink>
-          <NavLink to="careers">Careers</NavLink>
+          <div className="nav-links">
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="about">About</NavLink>
+            <NavLink to="help">Help</NavLink>
+            <NavLink to="careers">Careers</NavLink>
+          </div>
         </nav>
         <Breadcrumbs />
       </header>
       <main>
         <Outlet />
       </main>
+      <footer>
+        <p>© 2023 Jobarouter. All right reserved.</p>
+      </footer>
     </div>
   );
 }

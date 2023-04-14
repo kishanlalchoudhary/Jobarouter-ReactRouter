@@ -35,13 +35,13 @@ button {
 header nav {
     display: flex;
     gap: 16px;
-    justify-content: end;
+    justify-content: space-between;
+    align-items: center;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 header nav h1 {
-    margin-right: auto;
     border-bottom: 3px solid var(--primary);
 }
 
@@ -55,10 +55,17 @@ header nav a.active {
     background: var(--primary);
 }
 
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
 /* page content */
 main {
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 40px auto 75px;
 }
 
 /* help layout */
@@ -90,6 +97,10 @@ main {
     padding: 5px 20px;
     border-radius: 4px;
     margin: 20px 0;
+}
+
+.faq .question p:last-child {
+    text-align: justify;
 }
 
 /* contact form */
@@ -149,6 +160,10 @@ form label span {
     margin: 20px 0;
 }
 
+.career-details .details p {
+    text-align: justify;
+}
+
 /* breadcrumbs */
 .breadcrumbs {
     max-width: 1200px;
@@ -170,5 +185,66 @@ form label span {
 }
 
 .breadcrumbs .crumb a {
+    text-decoration: none;
     color: #ddd;
+}
+
+.breadcrumbs .crumb:last-child a {
+    color: #bc4123;
+}
+
+/* Home page */
+
+.home p {
+    text-align: justify;
+}
+
+/* About page */
+
+.about p {
+    text-align: justify;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    color: #bbb;
+    background-color: #bc4123;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    padding: 12px, 12px;
+}
+
+/* Responsive code  */
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 576px) {
+    header nav {
+        flex-direction: column;
+    }
+
+    .contact h3 {
+        text-align: center;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    form {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
