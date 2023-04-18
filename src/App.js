@@ -43,3 +43,5 @@ function App() {
 }
 
 export default App;
+
+// Loaders - https://youtu.be/K-bxVELldCc
