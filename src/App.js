@@ -51,3 +51,5 @@ function App() {
 }
 
 export default App;
+
+// Route Parameters - https://youtu.be/T8ZhepmbP4s
