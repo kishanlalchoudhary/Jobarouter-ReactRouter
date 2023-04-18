@@ -26,3 +26,5 @@ function App() {
 }
 
 export default App;
+
+// Router provider and outlet - https://youtu.be/5s57C7leXc4
