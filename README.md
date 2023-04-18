@@ -26,7 +26,16 @@ This is a simple project aimed to show the use of the React Router v6 library, w
 ### Help Page
 ![Screenshot (231)](https://user-images.githubusercontent.com/107745828/232895456-9553a366-05f5-412c-9136-e9321d0ee7c3.png)
 
-####FA
+#### FAQ Section
+![screencapture-jobarouter-react-router-netlify-app-help-faq-2023-04-19-01_47_22](https://user-images.githubusercontent.com/107745828/232895949-389e72ac-abe1-4ddb-95e6-1063f695cee2.png)
 
+#### Contact Section
+![Screenshot (233)](https://user-images.githubusercontent.com/107745828/232896018-6767561f-7c73-4123-9223-b4783b5cc3f1.png)
+
+### Careers Page
+![screencapture-jobarouter-react-router-netlify-app-careers-2023-04-19-01_52_06](https://user-images.githubusercontent.com/107745828/232896241-8a4b3b34-e098-4875-bb4e-dc2b11883367.png)
+
+#### Careers Details Section
+![Screenshot (235)](https://user-images.githubusercontent.com/107745828/232896505-1dcfdbec-4400-4a71-bcb6-0ed02b994da9.png)
 
 ## [Deployed Project link](https://jobarouter-react-router.netlify.app/)
