@@ -4,8 +4,8 @@ This is a simple project aimed to show the use of the React Router v6 library, w
 
 ## Features
 
-- used createBrowserRouter, createRoutesFromElements, Route, and RouterProvider components to create a client-side routing system.
-- used Outlet component used to render child routes and useOutletContext hook to access information about the current matched route.
+- used createBrowserRouter, createRoutesFromElements, Route, and RouterProvider components to create a client-side routing system
+- used Outlet component used to render child routes and useOutletContext hook to access information about the current matched route
 - used Navlink and Link components to connect the various pages and parts of the website
 - used loader prop and useLoaderData hook to load data asynchronously
 - used useParams hook to access the parameters of the current URL, such as a dynamic ID in a route
