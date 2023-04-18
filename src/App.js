@@ -35,3 +35,6 @@ function App() {
 }
 
 export default App;
+
+// Nested Routes and Layouts - https://youtu.be/l8CS9AMBSIQ
+// Custom 404 Page - https://youtu.be/0sfBVj03sRY
