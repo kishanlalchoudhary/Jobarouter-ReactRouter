@@ -205,6 +205,12 @@ form label span {
     text-align: justify;
 }
 
+.about-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Footer */
 
 footer {

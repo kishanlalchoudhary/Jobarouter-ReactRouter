@@ -7,7 +7,9 @@ export default function CareerDetails() {
 
   return (
     <div className="career-details">
-      <h2>Career Details for {career.title}</h2>
+      <h2>
+        {id}. Career Details for {career.title}
+      </h2>
       <p>Starting salary: {career.salary}</p>
       <p>Location: {career.location}</p>
       <div className="details">
@@ -26,11 +28,14 @@ export default function CareerDetails() {
 // loader function
 export const careerDetailsLoader = async ({ params }) => {
   const { id } = params;
-  const res = await fetch("https://my-json-server.typicode.com/kishanlalchoudhary/Jobarouter-ReactRouter/careers/" + id);
+  const res = await fetch(
+    "https://my-json-server.typicode.com/kishanlalchoudhary/Jobarouter-ReactRouter/careers/" +
+      id
+  );
 
   if (!res.ok) {
     throw Error("Could not find that career");
   }
-  
+
   return res.json();
 };

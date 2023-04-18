@@ -1,8 +1,15 @@
 import React, { useState } from "react";
 import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function About() {
   const [user, setUser] = useState("kishanlal");
+
+  const navigate = useNavigate();
+
+  const nextHandler = () => {
+    navigate("/test");
+  };
 
   if (!user) {
     return <Navigate to="/" replace={true} />;
@@ -32,7 +39,10 @@ export default function About() {
         quia illum officia obcaecati provident nulla odio molestiae suscipit
         quasi.
       </p>
-      <button onClick={() => setUser(null)}>Logout</button>
+      <div className="about-btn">
+        <button onClick={() => setUser(null)}>Logout</button>
+        <button onClick={nextHandler}>Next</button>
+      </div>
     </div>
   );
 }

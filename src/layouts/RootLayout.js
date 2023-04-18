@@ -11,13 +11,13 @@ export default function RootLayout() {
             <NavLink to="/">Home</NavLink>
             <NavLink to="about">About</NavLink>
             <NavLink to="help">Help</NavLink>
-            <NavLink to="careers">Careers</NavLink>
+            <NavLink end to="careers">Careers</NavLink>
           </div>
         </nav>
         <Breadcrumbs />
       </header>
       <main>
-        <Outlet />
+        <Outlet context={{ greeting: "Welcome" }} />
       </main>
       <footer>
         <p>© 2023 Jobarouter. All right reserved.</p>
